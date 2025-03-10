@@ -62,19 +62,19 @@ El archivo `app.js` contiene la lógica principal de la aplicación. Aquí te ex
 A continuación, se muestran imágenes y videos que ilustran cómo usar la aplicación:
 
 ### 1. Agregar nombres
-![Captura de pantalla: Agregar nombres](ruta/a/captura1.png)  
+![Captura de pantalla: Agregar nombres](https://github.com/JoseLuisRiveros/Challenge-AS/blob/Rama1/FOTO-CAS2.png)  
 *Descripción: Muestra el campo de texto y el botón "Añadir".*
 
 ### 2. Lista de participantes
-![Captura de pantalla: Lista de nombres](ruta/a/captura2.png)  
+![Captura de pantalla: Lista de nombres](https://github.com/JoseLuisRiveros/Challenge-AS/blob/Rama1/FOTO-CAS3.png)  
 *Descripción: Muestra la lista de nombres agregados.*
 
 ### 3. Realizar sorteo
-![Captura de pantalla: Resultado del sorteo](ruta/a/captura3.png)  
+![Captura de pantalla: Resultado del sorteo](https://github.com/JoseLuisRiveros/Challenge-AS/blob/Rama1/FOTO-CAS4.png)  
 *Descripción: Muestra el resultado del sorteo con el nombre del ganador.*
 
 ### 4. Reiniciar juego
-![Captura de pantalla: Reiniciar juego](ruta/a/captura4.png)  
+![Captura de pantalla: Reiniciar juego](https://github.com/JoseLuisRiveros/Challenge-AS/blob/Rama1/FOTO-CAS1.png)  
 *Descripción: Muestra el botón de reinicio y la interfaz después de reiniciar el juego.*
 
 ### Video: Cómo agregar nombres y realizar el sorteo

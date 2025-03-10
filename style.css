@@ -160,6 +160,11 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Espacio entre botones */
+}
 /* Estilos para el botón "Juego nuevo" */
 .button-new-game {
     display: flex;
@@ -174,6 +179,12 @@ ul {
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     cursor: pointer;
+}
+.button-new-game img {
+    margin-right: 20px;
+    width: 24px;
+    height: 24px;
+    object-fit: contain; /* Mantiene las proporciones del ícono */
 }
 
 .button-new-game:hover {

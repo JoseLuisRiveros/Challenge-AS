@@ -30,7 +30,15 @@ function actualizarLista() {
         lista.appendChild(li);
     });
 }
+// Función para reiniciar el juego
+function reiniciarJuegoAmigoSecreto() {
+    amigos = []; // Vacía la lista de amigos
+    actualizarLista(); // Actualiza la lista en la interfaz
+    document.getElementById("resultado").innerHTML = ""; // Limpia el resultado del sorteo
+    document.getElementById("juegoNuevo").setAttribute("disabled", true); // Deshabilita el botón "Juego nuevo"
+}
 
+// Se oodifica la función sortearAmigo para habilitar el botón "Juego nuevo"
 function sortearAmigo() {
     if (amigos.length === 0) {
         alert("Agrega al menos un amigo antes de sortear.");
@@ -41,6 +49,9 @@ function sortearAmigo() {
     const amigoSecreto = amigos[indiceGanador];
     const resultado = document.getElementById("resultado");
     resultado.innerHTML = `<li>El amigo secreto es: <strong>${amigoSecreto}</strong></li>`;
+
+    // Se habilitar el botón "Juego nuevo" después de sortear
+    document.getElementById("juegoNuevo").removeAttribute("disabled");
 }
 
 function limpiarCaja() {
